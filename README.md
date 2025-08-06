@@ -25,12 +25,14 @@ ReDone is a lightweight Python project for recording and replaying keyboard and 
 
 ### Files
 
-- `ReDoneKeyboard.py` — keyboard recorder and player script
-- `ReDoneMouse.py` — mouse recorder and player script
+- `ReDone Keyboard.py` — keyboard recorder and player script
+- `ReDone Mouse.py` — mouse recorder and player script
 
 ### How to Use
+1. Download ZIP:
+    Click on the Code button on the top right and download ZIP. Extract the ZIP in a folder of your choice.
 
-1. Run the script:
+2. Run the script:
     ```bash
     python ReDoneKeyboard.py
     ```
@@ -39,15 +41,13 @@ ReDone is a lightweight Python project for recording and replaying keyboard and 
     python ReDoneMouse.py
     ```
 
-2. Use the following hotkeys:
+3. Hotkeys:
 
    | Action             | Hotkey           |
    | ------------------ | ---------------- |
-   | Start/stop recording | Ctrl + Shift + R |
-   | Start playback       | Ctrl + Shift + P |
+   | Start/stop recording | Shift + E |
+   | Start playback       | Shift + W |
    | Force quit script    | Ctrl + Shift + Q |
-
-3. When playback starts, you will have 5 seconds to prepare before it begins.
 
 4. When prompted, choose the log file, playback speed, and loop count (or infinite).
 
@@ -59,6 +59,7 @@ ReDone is a lightweight Python project for recording and replaying keyboard and 
 - Playback can be stopped anytime by pressing the quit hotkey.
 - Infinite loops require quitting manually via the quit hotkey.
 - Hotkeys used by the script are ignored during recording to prevent self-triggering.
+- When playback starts, you will have 5 seconds to prepare before it begins.
 
 ---
 
