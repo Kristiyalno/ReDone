@@ -6,7 +6,7 @@ ReDone is a lightweight Python project for recording and replaying keyboard and 
 
 ## IMPORTANT
 
-The script sometimes messes up some stuff about Windows Explorer, in that case to quickly reload it run ```Reload Explorer.bat``` this fixes it.
+The script sometimes messes up some stuff about Windows Explorer, in that case to quickly reload it run ```Reload Explorer.bat```, this fixes it.
 
 ---
 
