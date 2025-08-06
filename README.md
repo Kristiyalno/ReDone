@@ -1,2 +1,87 @@
-# ReDone
-Redone is a lightweight Python tool for recording and playing back mouse and keyboard inputs.
+# ReDone: Input Recorder & Playback Tool
+
+ReDone is a lightweight Python project for recording and replaying keyboard and mouse actions with customizable playback options. It is designed for quick, reliable input automation with simple controls.
+
+---
+
+## Features
+
+- Record keyboard inputs and mouse movements/clicks with precise timing.
+- Play back recorded input logs at adjustable speeds.
+- Loop playback with finite or infinite options.
+- Cross-platform compatible using the `pynput` library.
+- Simple hotkey controls for recording, playback, and quitting.
+- Saves logs with timestamped filenames to avoid overwriting.
+- Graceful playback stop and force quit capabilities.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7 or later
+- `pynput` library (`pip install pynput`)
+
+### Files
+
+- `ReDoneKeyboard.py` — keyboard recorder and player script
+- `ReDoneMouse.py` — mouse recorder and player script
+
+### How to Use
+
+1. Run the script:
+    ```bash
+    python ReDoneKeyboard.py
+    ```
+    or
+    ```bash
+    python ReDoneMouse.py
+    ```
+
+2. Use the following hotkeys:
+
+   | Action             | Hotkey           |
+   | ------------------ | ---------------- |
+   | Start/stop recording | Ctrl + Shift + R |
+   | Start playback       | Ctrl + Shift + P |
+   | Force quit script    | Ctrl + Shift + Q |
+
+3. When playback starts, you will have 5 seconds to prepare before it begins.
+
+4. When prompted, choose the log file, playback speed, and loop count (or infinite).
+
+---
+
+## Notes
+
+- Logs are saved in folders named `Keyboard Logs` and `Mouse Logs` inside the script directory.
+- Playback can be stopped anytime by pressing the quit hotkey.
+- Infinite loops require quitting manually via the quit hotkey.
+- Hotkeys used by the script are ignored during recording to prevent self-triggering.
+
+---
+
+## License
+
+This project is provided under a **custom license** that allows you to:
+
+- Use, modify, and share the code freely for **non-commercial purposes**.
+- Provide proper **attribution** to the original author(s), including this repository and its contributors.
+
+**Commercial use, including selling or using this code for profit, is NOT allowed without explicit permission.**
+
+---
+
+If you want to use this project or its code commercially, please contact the author for licensing options.
+
+---
+
+*Note:* This license is not an official open-source license recognized by OSI but is designed to protect the author's rights while allowing free personal and educational use.
+
+
+---
+
+## Acknowledgments
+
+Created with assistance from ChatGPT by OpenAI.
