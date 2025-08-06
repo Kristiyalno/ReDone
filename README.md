@@ -67,7 +67,7 @@ ReDone is a lightweight Python project for recording and replaying keyboard and 
 This project is provided under a **custom license** that allows you to:
 
 - Use, modify, and share the code freely for **non-commercial purposes**.
-- Provide proper **attribution** to the original author(s), including this repository and its contributors.
+- Provide proper **attribution** to the original author (Kristiyalno), including this repository and its contributors.
 
 **Commercial use, including selling or using this code for profit, is NOT allowed without explicit permission.**
 
@@ -82,6 +82,6 @@ If you want to use this project or its code commercially, please contact the aut
 
 ---
 
-## Acknowledgments
+## Other
 
-Created with assistance from ChatGPT by OpenAI.
+This was created with assistance from ChatGPT by OpenAI because I'm not the greatest programmer, nor are you.
