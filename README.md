@@ -30,6 +30,7 @@ ReDone is a lightweight Python project for recording and replaying keyboard and 
 
 ### How to Use
 1. Download ZIP:
+    
     Click on the Code button on the top right and download ZIP. Extract the ZIP in a folder of your choice.
 
 2. Run the script:
