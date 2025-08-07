@@ -27,7 +27,7 @@ The script sometimes messes up some stuff about Windows Explorer, in that case t
 ### Prerequisites
 
 - Python 3.7 or later
-- `pynput` library (`pip install pynput`)
+- `pynput` library (`pip install pynput` in your cmd)
 
 ### Files
 
@@ -40,13 +40,7 @@ The script sometimes messes up some stuff about Windows Explorer, in that case t
     Click on the Code button on the top right and download ZIP. Extract the ZIP in a folder of your choice.
 
 2. Run the script:
-    ```bash
-    python ReDoneKeyboard.py
-    ```
-    or
-    ```bash
-    python ReDoneMouse.py
-    ```
+    Right click on one of the scripts and launch with Python.
 
 3. Hotkeys:
 
