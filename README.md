@@ -31,8 +31,9 @@ The script sometimes messes up some stuff about Windows Explorer, in that case j
 
 ### Files
 
-- `ReDone Keyboard.py` — keyboard recorder and player script
-- `ReDone Mouse.py` — mouse recorder and player script
+- `ReDoneKeyboard.py` — keyboard recorder and player script
+- `ReDoneMouse.py` — mouse recorder and player script
+- `ReDoneMouseExperimental.py` — mouse recorder and player script but this has a different way of doing it so it works for games like Minecraft (made by Xmogus)
 
 ### How to Use
 1. Download ZIP:
