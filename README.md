@@ -6,7 +6,7 @@ ReDone is a lightweight Python project for recording and replaying keyboard and 
 
 ## IMPORTANT
 
-The script sometimes messes up some stuff about Windows Explorer, in that case to quickly reload it run ```Reload Explorer.bat```, this fixes it.
+The script sometimes messes up some stuff about Windows Explorer, in that case just click `Shift` and release it, I'm not sure why but the script makes it stuck.
 
 ---
 
@@ -44,13 +44,15 @@ The script sometimes messes up some stuff about Windows Explorer, in that case t
 
 3. Hotkeys:
 
+    **Note:** You can edit the hotkeys inside the script but I'm not gonna help you with that.
+
    | Action             | Hotkey           |
    | ------------------ | ---------------- |
    | Start/stop recording | Shift + E |
    | Start playback       | Shift + W |
    | Force quit script    | Ctrl + Shift + Q |
 
-4. When prompted, choose the log file, playback speed, and loop count (or infinite).
+5. When prompted, choose the log file, playback speed, and loop count (or infinite).
 
 ---
 
